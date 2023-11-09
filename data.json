@@ -1,0 +1,523 @@
+[
+  {
+    "name": "Human Smoke",
+    "image": "./assets/images/personagens/humansmoke.png",
+    "moveList": [
+      { "combination": "←,←,B", "name": "Gancho:" },
+      { "combination": " ↓,←,Y  ", "name": "Teleporte:" }
+    ],
+
+    "combos": [
+      {"combination": "A, B, Voadora, ↓, ←, Y, ←, ←, B, A, B, Voadora + bloqueio aereo ","name": "Combo 1:"},
+      {"combination": "A, B, Voadora, ↓, ←, Y, ←, ←, B, X,X,A,X ","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      { "combination": "R,L,R,R,X", "name": "fatality 1:", "distance": "perto" },
+      { "combination": "Y,Y,L,A,X,Y,X,Y,X,B,A ", "name": "Brutality 1:", "distance": "" },
+      { "combination": "→,↑,↑,B ", "name": "Stage Fatality 1:", "distance": "" },
+      { "combination": "↓,←,→,→,Y ", "name": "Babality 1:", "distance": "" }
+    ]
+  },
+  {
+    "name": "Cyrax",
+    "image": "./assets/images/personagens/cyrax.png",
+    "moveList": [
+      { "combination": "Segure A, aperte →,→,X", "name": "Granada rápida" },
+      { "combination": "Segure A, aperte ←,←,X ", "name": "Granada lenta:" },
+      { "combination": "←,←,A ", "name": "Rede:" },
+      { "combination": " →,↓,L", "name": "Teleporte:" },
+      { "combination": " ↓,→,L,B", "name": "Teleporte (avanço) no alto:" }
+    ],
+    "combos": [
+      {
+        "combination": "Y,Y,X,Y,X,←+X",
+        "name": "Combo 1:"
+      }
+    ],
+    "finalRoundSpecial": [
+      { "combination": "↓,↓,↑,↓,Y ", "name": "fatality 1:", "distance": "qualquer lugar" },
+      { "combination": "↓,↓,→,↑+R", "name": "fatality 2:", "distance": "perto" },
+      { "combination": "R,L,R ", "name": "Stage Fatality:", "distance": "qualquer lugar" },
+      { "combination": "→,←,←,Y", "name": "Babality:", "distance": "qualquer lugar" },
+      { "combination": "Y,X,Y,X,X,Y,X,Y,X,A,B ", "name": "Brutality:", "distance": "qualquer lugar" }
+    ]
+  },
+  {
+    "name": "Sektor",
+    "image": "./assets/images/personagens/sektor.png",
+    "moveList": [
+      { "combination": "→,→,B ", "name": "Míssil:" },
+      { "combination": " →,↓,←,Y ", "name": "Míssil rastreador: " },
+      { "combination": "→,→,A ", "name": "Teleporte:" }
+    ],
+
+    "combos": [
+      {"combination": "Y,Y,X,X,←+X","name": "Combo 1:"},
+      {"combination": "Y,Y, ↓+B, Voadora + (→,→,A)e um chute","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": " B,R,R,L","name": "fatality 1:","distance": "Distancia de uma rasteira"},
+      {"combination": "→,→,→,←,L","name": "fatality 2:","distance": "Média distância"},
+      {"combination": "Y,Y,L,L,X,X,A,A,B,B,Y ","name": "Brutality:","distance": "Média distância"},
+      {"combination": "R,R,R,↓ ","name": "Stage Fatality: ","distance": "Média distância"},
+      {"combination": "R,R,R,R,R,↓ ","name": "Friend Ship: ","distance": "Média distância"},
+      {"combination": "←,↓,↓,↓,X  ","name": "Babality: ","distance": "Média distância"}
+    ]
+  },
+  {
+    "name": "Smoke",
+    "image": "./assets/images/personagens/smoke.png",
+    "moveList": [
+      { "combination": "←,←,B  ", "name": "Tridente:" },
+      { "combination": "→,→,A  ", "name": "Teleporte: " },
+      { "combination": " ↑,↑,R ", "name": "Camuflagem:" }
+    ],
+
+    "combos": [
+      {"combination": "A, B, Voadora, ↓, ←, Y, ←, ←, B, A, B, Voadora + bloqueio aereo ","name": "Combo 1:"},
+      {"combination": "A, B, Voadora, ↓, ←, Y, ←, ←, B, X,X,A,X ","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "Pressionando L + ↑,↑,→,↓","name": "fatality 1:","distance": "Toda tela de distancia"},
+      {"combination": "Pressionando L + R ↓,↓,→,↑","name": "fatality 2:","distance": "Uma rasteira"},
+      {"combination": "Y,A,A,X,L,L,B,B,Y,Y,L,L ","name": "Brutality:","distance": ""},
+      {"combination": "→,→,↓,A ","name": "Stage Fatality:","distance": "Uma rasteira"},
+      {"combination": "Pressionando L + R ↓,↓,→,↑","name": "Friend Ship:","distance": "Tela toda"},
+      {"combination": "↓,↓,←,←,X ","name": "Babality:","distance": "Uma rasteira"}
+    ]
+  },
+  {
+    "name": "Kabal",
+    "image": "./assets/images/personagens/kabal.png",
+    "moveList": [
+      { "combination": "←,→,A ", "name": "Spin:" },
+      { "combination": "←,←,Y  ", "name": "Bola de fogo: " },
+      { "combination": "←,←,←,R  ", "name": "Teleporte:" }
+    ],
+
+    "combos": [
+      {"combination": "A,A,Y, Y, ↓ +Y, Voadora, ←, ←, Y","name": "Combo 1:"},
+      {"combination": "Y, Y, ↓ +Y, Voadora, ←, ←, Y","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "R,L,L,L,X","name": "fatality 1:","distance": "perto"},
+      {"combination": "↓, ↓, ←, →, L","name": "fatality 2:","distance": "longe"},
+      {"combination": "Y,L,A,A,A,X,X,B,B,Y,B ","name": "Brutality:","distance": ""},
+      {"combination": "L,L,X","name": "Stage Fatality:","distance": "perto"},
+      {"combination": "R,A,R,R,↑","name": "Friend Ship:","distance": ""},
+      {"combination": "R,R,A","name": "Babality: ","distance": ""}
+    ]
+  },
+  {
+    "name": "Ermac ",
+    "image": "./assets/images/personagens/ermac.png",
+    "moveList": [
+      { "combination": "↓,←,B  ", "name": "Bola de energia: " },
+      { "combination": "↓,←,Y  ", "name": "Teleporte: " },
+      { "combination": " ←,↓,←,X   ", "name": "Telecinesia :" }
+    ],
+
+    "combos": [
+      {"combination": "Y,Y,←+B,X,A","name": "Combo 1:"},
+      {"combination": "Y,Y,←+B,↓ →+B, ←,↓,←,X Y, Y, Voadora","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": " R,L,R,R,X","name": "fatality 1:","distance": "perto"},
+      {"combination": "↓,↑,↓,↓,↓,L","name": "fatality 2:","distance": "distante"},
+      {"combination": "Y,L,A,A,A,X,X,B,B,Y,B ","name": "Brutality:","distance": ""},
+      {"combination": "L,L,X","name": "Stage Fatality:","distance": "perto"},
+      {"combination": "R,A,R,R,↑","name": "Friend Ship:","distance": ""},
+      {"combination": "R,R,A","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Jade ",
+    "image": "./assets/images/personagens/jade.png",
+    "moveList": [
+      { "combination": "←,→,Y", "name": "Bumerangue alto: " },
+      { "combination": "←,→,B", "name": "Bumerangue reto: " },
+      { "combination": "←,→,A", "name": "Bumerangue:" },
+      { "combination": "←,←,→,B", "name": "Bumerangue retornável:" },
+      { "combination": "←,→,X", "name": "Bloqueio de golpes:" },
+      { "combination": "↓,→,A", "name": "Chute verde:" }
+    ],
+
+    "combos": [
+      {"combination": "Y,Y, ↓+B ,A,X,X,A,←+X","name": "Combo 1:"},
+      {"combination": "Y,Y, ↓+B, ↓+Y","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "↑,↑,↓,→,Y ","name": "fatality 1:","distance": "perto"},
+      {"combination": "R,R,R,L,R","name": "fatality 2:","distance": "perto"},
+      {"combination": "Y,A,Y,B,X,X,A,L,L,L,Y,X ","name": "Brutality:","distance": ""},
+      {"combination": "←,→,↓,R ","name": "Stage Fatality:","distance": ""},
+      {"combination": "→,↓,←,←,X","name": "Friend Ship:","distance": ""},
+      {"combination": "↓,↓,→,↓,X","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Jax ",
+    "image": "./assets/images/personagens/jax.png",
+    "moveList": [
+      { "combination": "←,→,Y", "name": "Bola de fogo:" },
+      { "combination": "→,→,←,←,Y ", "name": "Dupla bola de fogo:" },
+      { "combination": "→,→,B", "name": "Agarrada e socadas:" },
+      { "combination": "→,→,X ", "name": "Super soco:" },
+      { "combination": "Segure A por 3 Segundos", "name": "Soco no chão:" }
+    ],
+
+    "combos": [
+      {"combination": "X,X, ↓+Y, Y,L,B,←+Y","name": "Combo 1:"},
+      {"combination": "Y,Y,L,B,←+Y ","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "Segure L, aperte ↑,↓,→,↑ e solte L","name": "fatality 1:","distance": "perto"},
+      {"combination": "R,L,R,R,A","name": "fatality 2:","distance": "longe"},
+      {"combination": "Y,Y,Y,L,B,Y,Y,Y,L,B,Y  ","name": "Brutality:","distance": ""},
+      {"combination": "↓,→,↓,B ","name": "Stage Fatality:","distance": ""},
+      {"combination": "A,R,R,A ","name": "Friend Ship:","distance": ""},
+      {"combination": "↓,↓,↓,A ","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Kano ",
+    "image": "./assets/images/personagens/kano.png",
+    "moveList": [
+      { "combination": "↓,←,Y ", "name": "Arremesso de lâmina:" },
+      { "combination": "↓,→,Y  ", "name": "Corte de lâmina:" },
+      { "combination": "→,↓,→,X ", "name": "Bola de canhão diagonal:" },
+      { "combination": "↓,→,B  ", "name": "Balançada:" },
+      { "combination": "Segure A por 3 Segundos", "name": "Bola de canhão:" }
+    ],
+
+    "combos": [
+      {"combination": "Y,Y,X,A,←+X","name": "Combo 1:"},
+      {"combination": "Y,Y,↓+B,↓+Y, Voadora + L","name": "Combo 2:"},
+      {"combination": "X,X,A,←+X","name": "Combo 3:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "Segure L, aperte ↑,↓,→,↑ e solte L","name": "fatality 1:","distance": "perto"},
+      {"combination": "R,L,R,R,A","name": "fatality 2:","distance": "longe"},
+      {"combination": "Y,Y,Y,L,B,Y,Y,Y,L,B,Y  ","name": "Brutality:","distance": ""},
+      {"combination": "↓,→,↓,B ","name": "Stage Fatality:","distance": ""},
+      {"combination": "A,R,R,A ","name": "Friend Ship:","distance": ""},
+      {"combination": "↓,↓,↓,A ","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Kitana ",
+    "image": "./assets/images/personagens/kitana.png",
+    "moveList": [
+      { "combination": "←,←,←,Y  ", "name": "Sonda de Leque:" },
+      { "combination": "→,→,Y+B ", "name": "Arremesso de Leque:" },
+      { "combination": "↓,←,Y  ", "name": "Super soco no alto:" },
+      { "combination": "↓,→,B  ", "name": "Balançada:" },
+      { "combination": "Segure A por 3 Segundos", "name": "Bola de canhão:" }
+    ],
+
+    "combos": [
+      {"combination": "Y,Y,←+B,→+Y","name": "Combo 1:"},
+      {"combination": "X,X,A,←+X, Voadora + L","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "R,R,L,L,A ","name": "fatality 1:","distance": "perto"},
+      {"combination": "←,↓,→,→,X","name": "fatality 2:","distance": "perto"},
+      {"combination": "Y,Y,L,X,L,A,L,Y,L,Y,L   ","name": "Brutality:","distance": ""},
+      {"combination": "→,↓,↓,A  ","name": "Stage Fatality:","distance": ""},
+      {"combination": " ↓,←,→,→,B ","name": "Friend Ship:","distance": ""},
+      {"combination": "→,→,↓,→,X","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Kung Lao  ",
+    "image": "./assets/images/personagens/kunglao.png",
+    "moveList": [
+      { "combination": "↓,↑   ", "name": "Teleporte:" },
+      { "combination": "↓+X  ", "name": "Vôo de ataque:" },
+      { "combination": "→,↓,→,R  ", "name": "Giro:" },
+      { "combination": "←,→B ", "name": "Arremesso de Chapéu:" }
+    ],
+
+    "combos": [
+      {"combination": "Y,B,Y,B,A,A,←+X","name": "Combo 1:"},
+      {"combination": "Y,A,←+X ","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "R,L,R,L,↓","name": "fatality 1:","distance": "perto"},
+      {"combination": "→,→,←,↓,Y","name": "fatality 2:","distance": "perto"},
+      {"combination": "Y,B,A,X,L,Y,B,A,X,L,Y ","name": "Brutality:","distance": ""},
+      {"combination": "↓,↓,→,→,A ","name": "Stage Fatality:","distance": ""},
+      {"combination": "R,B,R,A ","name": "Friend Ship:","distance": ""},
+      {"combination": "↓,→,→,Y","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Stryker ",
+    "image": "./assets/images/personagens/stryker.png",
+    "moveList": [
+      { "combination": "←,→,Y ", "name": "Armas:" },
+      { "combination": "↓,←,Y ", "name": "Granada alta:" },
+      { "combination": "↓,←,B", "name": "Granada baixa:" },
+      { "combination": "→,→,X ", "name": "Ataque a Bastão:" },
+      { "combination": "→,←,B ", "name": "Bastão:" }
+    ],
+
+    "combos": [
+      {"combination": "X,Y,Y, ↓+B, dê uma voadora e (→,→,X)","name": "Combo 1:"},
+      {"combination": "Y,Y,B","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": " ↓,→,↓,→,L","name": "fatality 1:","distance": "perto"},
+      {"combination": "→,→,→,A","name": "fatality 2:","distance": "Longe"},
+      {"combination": "Y,B,X,A,Y,B,A,X,Y,A,A ","name": "Brutality:","distance": ""},
+      {"combination": "→,↑,↑, X","name": "Stage Fatality:","distance": ""},
+      {"combination": "B,R,R,B ","name": "Friend Ship:","distance": ""},
+      {"combination": "↓,→,→,←,Y ","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Liu Kang  ",
+    "image": "./assets/images/personagens/liukang.png",
+    "moveList": [
+      { "combination": "→,→,Y ", "name": "Bola de fogo:" },
+      { "combination": "→,→,B  ", "name": "Bola de fogo baixa:" },
+      { "combination": " →,→, X ", "name": "Voadora:" },
+      { "combination": "Segure A por 3 Segundos", "name": "bicicleta:" }
+    ],
+
+    "combos": [
+      {"combination": "X,Y,Y, ↓+B, dê uma voadora e (→,→,X)","name": "Combo 1:"},
+      {"combination": "Y,Y,B","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": " →, →,↓,↓,A ","name": "fatality 1:","distance": ""},
+      {"combination": "↑,↓,↑,↑,L+R ","name": "fatality 2:","distance": ""},
+      {"combination": " Y,B,Y,L,A,X,A,X,B,B,Y","name": "Brutality:","distance": ""},
+      {"combination": "R,L,L,A ","name": "Stage Fatality:","distance": "perto"},
+      {"combination": "R,R,R, segure R e aperte↓","name": "Friend Ship:","distance": ""},
+      {"combination": "↓,↓,↓, X ","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Mileena ",
+    "image": "./assets/images/personagens/mileena.png",
+    "moveList": [
+      { "combination": "→,→,A  ", "name": "Teleporte de ataque:" },
+      { "combination": "Segure Y por 2 segundos", "name": "Arremesso de adagas:" },
+      { "combination": "←,←,↓,X  ", "name": "Rolada no chão: " }
+    ],
+
+    "combos": [
+      {"combination": "Y,Y,↑+B,↓+B ","name": "Combo 1:"},
+      {"combination": "Y,Y,X,X,↓,→,A","name": "Combo 2:"},
+      {"combination": "Y,Y,X,X,↑+A,↑+X","name": "Combo 3:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "←,←,→,→,A","name": "fatality 1:","distance": "longe"},
+      {"combination": "↓,→,↓,→,B","name": "fatality 2:","distance": "perto"},
+      {"combination": "Y,B,B,Y,L,X,A,X,L,Y,B ","name": "Brutality:","distance": ""},
+      {"combination": "↓,↓,↓,B ","name": "Stage Fatality:","distance": ""},
+      {"combination": "↓,←,→,Y","name": "Friend Ship:","distance": ""},
+      {"combination": "↓,↓,→,→,Y","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Nightwolf  ",
+    "image": "./assets/images/personagens/nightwolf.png",
+    "moveList": [
+      { "combination": "↓,←,B  ", "name": "Flecha:" },
+      { "combination": " ↓,→,Y", "name": "Machado:" },
+      { "combination": "→,→,A ", "name": "Empurrão:" },
+      { "combination": " ←,←,←,X ", "name": "Bloqueio de magias: " }
+    ],
+
+    "combos": [
+      {"combination": "Y,Y,B,←+X","name": "Combo 1:"},
+      {"combination": "X,Y,Y,B,↓ → Y,↓ → Y, → → A","name": "Combo 2:"},
+      {"combination": "X,X,←+X","name": "Combo 3:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "↑,↑,←,→,L","name": "fatality 1:","distance": "perto"},
+      {"combination": "←,←,↓,Y","name": "fatality 2:","distance": "média distância"},
+      {"combination": "Y,Y,X,A,A,L,L,B,B,Y,X ","name": "Brutality:","distance": ""},
+      {"combination": "R,R,L ","name": "Stage Fatality:","distance": ""},
+      {"combination": "R,R,R,↓ ","name": "Friend Ship:","distance": "longe"},
+      {"combination": " →,←,→,←,B ","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Reptile ",
+    "image": "./assets/images/personagens/reptile.png",
+    "moveList": [
+      { "combination": "→,→,Y ", "name": "Ácido:" },
+      { "combination": "→,→,Y+B ", "name": "Bola rápida de ácido:" },
+      { "combination": "←,←,Y+B  ", "name": "Bola lenta de ácido:" },
+      { "combination": "←+B+A   ", "name": "Deslize:" },
+      { "combination": "L,↑,↓,X  ", "name": "Camuflagem:" },
+      { "combination": "←,→,A ", "name": "Empurrão: " }
+    ],
+
+    "combos": [
+      {"combination": "Y,Y,↓+B","name": "Combo 1:"},
+      {"combination": "X,X,←+X","name": "Combo 2:"},
+      {"combination": "Y,Y,X,←+X ","name": "Combo 3:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "←,→,↓,L","name": "fatality 1:","distance": "média distância"},
+      {"combination": "→,→,↑,↑,X","name": "fatality 2:","distance": "distância de uma rasteira"},
+      {"combination": "Y,L,X,X,L,Y,B,A,A,L,B  ","name": "Brutality:","distance": ""},
+      {"combination": "L,R,L,L ","name": "Stage Fatality:","distance": ""},
+      {"combination": "↓,→,→,←,X","name": "Friend Ship:","distance": "perto"},
+      {"combination": "→,→,←,↓,A ","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Scorpion  ",
+    "image": "./assets/images/personagens/scorpion.png",
+    "moveList": [
+      { "combination": "←,←,B ", "name": "Cordinha:" },
+      { "combination": "↓,←,Y ", "name": "Teleporte:" }
+    ],
+
+    "combos": [
+      {"combination": " X,X,A,A","name": "Combo 1:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "↓,↓,↑,X","name": "fatality 1:","distance": "média distância"},
+      {"combination": "→,→,↓,↑,R","name": "fatality 2:","distance": "Perto"},
+      {"combination": "Y,Y,L,X,X,A,X,Y,Y,B,Y ","name": "Brutality:","distance": ""},
+      {"combination": "→,↑,↑,B ","name": "Stage Fatality:","distance": ""},
+      {"combination": "←,→,→,←,A ","name": "Friend Ship:","distance": ""},
+      {"combination": "↓,←,←,→,Y  ","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Sindel   ",
+    "image": "./assets/images/personagens/sindel.png",
+    "moveList": [
+      { "combination": "→,→,B", "name": "Bola de fogo" },
+      { "combination": "↓,→,A", "name": "Bola de fogo no ar:" },
+      { "combination": "←,←,→,X", "name": "Voar:" },
+      { "combination": "→,→,→,Y ", "name": "Grito:" }
+    ],
+
+    "combos": [
+      {"combination": "X,Y,Y,B,←+X","name": "Combo 1:"},
+      {"combination": "X,Y,Y,↓+Y + Voadora + ↓ → A","name": "Combo 2:"},
+      {"combination": "X,X,←+X","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "R,R,L,R,L","name": "fatality 1:","distance": "Distancia de uma rasteira"},
+      {"combination": "R,L,L,R+L","name": "fatality 2:","distance": "Perto"},
+      {"combination": "Y,L,A,L,A,X,L,X,A,X,A,L,B ","name": "Brutality:","distance": ""},
+      {"combination": "↓, ↓, ↓,B  ","name": "Stage Fatality:","distance": ""},
+      {"combination": "R,R,R,R,↑ ","name": "Friend Ship:","distance": ""},
+      {"combination": "R,R,R,↑ ","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Sonya",
+    "image": "./assets/images/personagens/sonya.png",
+    "moveList": [
+      { "combination": "↓,→,B", "name": "Bola de fogo" },
+      { "combination": "↓+B+L ", "name": "Bola de fogo no ar:" },
+      { "combination": " →,←,Y", "name": "Voar:" },
+      { "combination": "←,←,↓,X  ", "name": "Grito:" }
+    ],
+
+    "combos": [
+      {"combination": "X,X,←+X","name": "Combo 1:"},
+      {"combination": "Y,Y,↑+B, (Voadora + ↓+B+L ) ","name": "Combo 2:"},
+      {"combination": "X,X,←+X","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": " Segure L+R, aperte ↑,↑,←,↓","name": "fatality 1:","distance": "longe"},
+      {"combination": " ←,→,↓,↓,R","name": "fatality 2:","distance": "qualquer lugar"},
+      {"combination": "Y,A,L,Y,A,L,Y,B,L,X,A ","name": "Brutality:","distance": ""},
+      {"combination": "→,→,↓,Y","name": "Stage Fatality:","distance": ""},
+      {"combination": "←,→,←,↓,R ","name": "Friend Ship:","distance": ""},
+      {"combination": " ↓,↓,→,A","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Sub Zero Clássico",
+    "image": "./assets/images/personagens/subzero.png",
+    "moveList": [
+      { "combination": "↓,→,B", "name": "Bola de Gelo" },
+      { "combination": "←+B+A  ", "name": "Deslize:" },
+      { "combination": "↓, ←,A ", "name": "Gelo no chão:" }
+    ],
+
+    "combos": [
+      {"combination": "Y,Y,A,←+X,→+A ","name": "Combo 1:"},
+      {"combination": "Y,Y,B,↓+ B, ↓+Y( Voadora + deslize)","name": "Combo 2:"},
+      {"combination": "X,X,←+X","name": "Combo 3:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "↓,↓,↓,→,Y","name": "fatality 1:","distance": "perto"},
+      {"combination": " ↓,→,→,→,Y (perto)","name": "fatality 2:","distance": "perto"},
+      {"combination": "Y,B,Y,L,A,A,X,X,B,Y,B ","name": "Brutality:","distance": ""},
+      {"combination": "→,↓,→,→,Y","name": "Stage Fatality:","distance": "perto"},
+      {"combination": "↓, ←,←,→,A","name": "Friend Ship:","distance": ""},
+      {"combination": " ↓,→,→,X","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Sub-Zero sem Máscara ",
+    "image": "./assets/images/personagens/unmasksubzero.png",
+    "moveList": [
+      { "combination": "↓,→,B", "name": "Bola de Gelo" },
+      { "combination": "↓,→,Y ", "name": "Gelo alto:" },
+      { "combination": "↓,→,←,Y ", "name": "Gelo alto longe: " },
+      { "combination": "↓,←,→,Y ", "name": "Gelo alto perto:" },
+      { "combination": "↓,←,B", "name": "Clone de gelo:" },
+      { "combination": "←+B+A ", "name": "Deslize:" }
+    ],
+
+    "combos": [
+      {"combination": "Y,Y,B,A,X,←+X","name": "Combo 1:"},
+      {"combination": "X,X,←+X","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "L,L,R,L,R","name": "fatality 1:","distance": "perto"},
+      {"combination": "←,←,↓,←,R","name": "fatality 2:","distance": "média distância"},
+      {"combination": "Y,A,X,B,Y,X,X,Y,Y,B,Y ","name": "Brutality:","distance": ""},
+      {"combination": "←,↓,→,→,X ","name": "Stage Fatality:","distance": "perto"},
+      {"combination": "A,R,R,↑","name": "Friend Ship:","distance": ""},
+      {"combination": "↓,←,←,X ","name": "Babality: ","distance": ""}
+    ]
+  },{
+    "name": "Shang Tsung ",
+    "image": "./assets/images/personagens/shangtsung.png",
+    "moveList": [
+      { "combination": "←,←,Y ", "name": "Bola de fogo:" },
+      { "combination": "←,←,→,Y", "name": "2 Bolas de fogo:" },
+      { "combination": "←,←,→,→,Y ", "name": "3 Bola de fogo:" },
+      { "combination": " →,←,←,A ", "name": "3 Bolas de erupção:" }
+    ],
+
+    "combos": [
+      {"combination": "A,Y,Y,B,←+X","name": "Combo 1:"},
+      {"combination": "Y,Y,B,←+X","name": "Combo 2:"}
+    ],
+    "finalRoundSpecial": [
+      {"combination": "Segure B, aperte ↓,→,→,↓ e solte B ","name": "fatality 1:","distance": "perto"},
+      {"combination": "Segure B, aperte R,L,R,R e solte B","name": "fatality 2:","distance": "perto"},
+      {"combination": "Y,L,L,L,A,Y,B,B,L,L,L  ","name": "Brutality:","distance": ""},
+      {"combination": "↑,↑,←,B  ","name": "Stage Fatality:","distance": "perto"},
+      {"combination": "A,R,R,↓","name": "Friend Ship:","distance": ""},
+      {"combination": "R,R,R,A  ","name": "Babality: ","distance": ""}
+    ],
+    "transformations": [
+      {"name": "Clássico Sub Zero", "combination": " L,L,R,R "},
+      {"name": "Ermac", "combination":" ↓,↓,↑ "},
+      {"name": "Jade", "combination":" →,→,↓, ↓+L "},
+      {"name": "Jax", "combination":" →,→,↓,B "},
+      {"name": "Kabal", "combination":" Aperte rapidamente B,L,X "},
+      {"name": "Kano", "combination":" Aperte rapidamente ←,→,L "},
+      {"name": "Kitana", "combination":" →,↓,→,R "},
+      {"name": "Kung Lao", "combination":" R,R,L,R "},
+      {"name": "Kurtis Stryker", "combination":" →,→,→,X "},
+      {"name": "Liu Kang", "combination":" →,↓,←,↑,→ (360 graus para →) "},
+      {"name": "Millena", "combination":" R,L,X "},
+      {"name": "Nightwolf", "combination":" ↑,↑,↑ "},
+      {"name": "Sonya", "combination":" ↓+R+L+B+A"},
+      
+      {"name": "Sub Zero", "combination":" →,↓,→,Y"},
+      {"name": "Reptile", "combination":" R,L,L,X "},
+      {"name": "Scorpion", "combination":" ↓,↓,→,B "},
+      {"name": "Sektor", "combination":" ↓,→,←,R "},
+      {"name": "Sindel", "combination":" ←,↓,←, A"},
+      {"name": "Rain", "combination":" ↓,←,→,A (não funciona na versão do SNES)"},
+      {"name": "Noob Saibot", "combination":" Rapidamente →,↓,↓,←,X (não funciona na versão do SNES)"},
+      {"name": "Smoke", "combination":" →,→,B (não funciona na versão do SNES)"},
+      {"name": "Smoke Human", "combination":" Aperte rapidamente ↓+R+B+A (não funciona na versão do SNES)"},
+      {"name": "Cyrax", "combination":" L,L,"}
+    ]
+  }
+]

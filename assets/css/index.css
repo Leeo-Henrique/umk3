@@ -1,0 +1,128 @@
+/* Header */
+header {
+  background-color: #000;
+  padding: 20px;
+  max-height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.logo__header {
+  max-width: 500px;
+}
+main{
+  background-color: var(--night);
+  min-height: 75vh;
+  padding: 50px 20%;
+}
+
+/* Container */
+#container__character {
+  display: flex; 
+  flex-direction: column;
+  width:100%;
+  padding: 30px;
+  gap: 40px;
+  background-color: var(--black);
+}
+/* Card */
+.card__character {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.card__character div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 8px;
+  box-shadow: -2px 0px 0px 0px rgba(255,255,255);
+}
+.card__character div div{
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  box-shadow: 0px 0px 0px 0px rgba(255,255,255);
+}
+.card__character div div h1 {
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+.card__character h1 {
+  color: var(--fluorecent-blue);
+}
+.card__character p {
+  color: var(--blue);
+}
+.img__character{
+  max-width: 125px;
+  width: 125px;
+  padding-right: 20px;
+  object-fit: contain;
+  
+}
+.name__character {
+  font-weight: bold;
+}
+.search__personagem {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+.search__personagem label{
+  margin-right: 10px;
+  width: 200px;
+  color: var(--white);
+}
+.search__personagem div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+.search__personagem input{
+  width: 90%;
+  border-radius: 8px;
+  height: 27px;
+  font-size: 17px;
+  padding-left: 10px;
+  cursor: text;
+}
+.search__personagem span{
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.search__personagem #search__button {
+  max-width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+  min-width: max-content;
+  background-color: #cecece;
+  border: 0;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 17px;
+}
+.search__personagem svg{
+  width: 20px;
+}
+.search__personagem #clear__search{
+  background: none;
+  height: 28px;
+  color: var(--black);
+  border: none;
+  margin-left: -60px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.separation__text{
+  text-transform: capitalize;
+  color: var(--white) !important;
+}
