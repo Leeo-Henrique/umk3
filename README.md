@@ -44,7 +44,7 @@ The application fetches character data from a local JSON file (`data.json`). Eac
    ```bash
    cd umk3
 
-3 **Ensure data.json File is Present**
+3. **Ensure data.json File is Present**
 
   Make sure that data.json is located in the project directory and contains the character data.
 
