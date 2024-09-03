@@ -38,22 +38,18 @@ The application fetches character data from a local JSON file (`data.json`). Eac
 
    ```bash
    git clone git@github.com:Leeo-Henrique/umk3_android.git
-   <br/>
 
 2. **Navigate to the Project Directory**
 
    ```bash
    cd umk3
-   <br/>
 
 3 **Ensure data.json File is Present**
 
   Make sure that data.json is located in the project directory and contains the character data.
-  <br/>
 
 4. **Open the Application**
   Open index.html in your preferred web browser.
-  <br/>
   
 Contributing
 Feel free to contribute to this project by submitting issues or pull requests. Your contributions are welcome!
