@@ -8,8 +8,6 @@ Welcome to the Ultimate Mortal Kombat 3 Wiki! This web application allows you to
 - **Search Functionality**: Quickly find characters by name.
 - **Detailed Character Information**: View detailed information about each character, including their moves, combos, fatalities, and transformations.
 
-## How It Works
-- 
 ### Data
 
 The application fetches character data from a local JSON file (`data.json`). Each character entry in the JSON file includes the following details:
