@@ -99,15 +99,6 @@ const mountCharacterCard = (character) => {
   return characterLi;
 };
 
-const startApplication = () => {
-  data.forEach((character) => {
-    const characterCreated = mountCharacterCard(character);
-    containerCharacters?.append(characterCreated);
-  });
-};
-
-startApplication();
-
 input.addEventListener("change", (e) => {
   if (e.target.value.length > 0) return filterCharacters(e.target.value);
 });
@@ -117,7 +108,7 @@ buttonSearch.addEventListener("click", (e) => {
 clearSearch.addEventListener("click", (e) => {
   input.value = ""
   containerCharacters.innerHTML = "";
-  startApplication();
+  displayCharacterList();
 });
 
 const filterCharacters = (name) => {
@@ -125,7 +116,6 @@ const filterCharacters = (name) => {
 
     return character.name.replace('-', '').toLowerCase().includes(name.toLowerCase())
   });
-  console.log(characterFounded)
   if (characterFounded.length > 0) {
     containerCharacters.innerHTML = "";
     return characterFounded.forEach((character) => {
@@ -134,7 +124,15 @@ const filterCharacters = (name) => {
     });
   } else {
     containerCharacters.innerHTML = "";
-    startApplication();
+    displayCharacterList();
   }
 };
 
+const displayCharacterList = () => {
+  data.forEach((character) => {
+    const characterCreated = mountCharacterCard(character);
+    containerCharacters?.append(characterCreated);
+  });
+};
+
+displayCharacterList();
